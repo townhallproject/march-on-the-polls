@@ -108,23 +108,6 @@ html, body { height: 100%; width: 100%;}
     flex: 2;
 }
 
-.marker {
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.in-person {
-    background-image: url('in-person.svg');
-}
-.virtual {
-    background-image: url('virtual.svg');
-}
-.marker {
-    background-image: url('featured.svg');
-}
 
 .filter-bar {
     display: flex;
@@ -213,7 +196,7 @@ html, body { height: 100%; width: 100%;}
     width: 20px;
     height: 20px;
     margin: 5px;
-    background-image: url('./usa.svg');
+    background-image: url('./images/usa.svg');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     display: inline-block;

@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "properties": {
+                "name": "Beth 5",
+                "eventDate": "10/14/2020",
+                "timestamp": "2020-10-14T11:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/beth-5",
+                "location": "2065 Greenwood Avenue, San Carlos, CA 94070",
+                "state": "CA",
+                "city": "San Carlos",
+                "zipCode": "94070",
+                "eventType": "virtual",
+                "featured": false,
+                "icon": "virtual"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25953296863452,
+                    37.494243982943814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "properties": {
+                "name": "Test 4",
+                "eventDate": "9/30/2020",
+                "timestamp": "2020-09-30T11:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/test-4-6",
+                "location": "12 Linda Lane, Summit, NJ 7901",
+                "state": "NJ",
+                "city": "Summit",
+                "zipCode": "7901",
+                "eventType": "in-person",
+                "featured": false,
+                "icon": "in-person"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.37243501393704,
+                    40.70442300322671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "properties": {
+                "name": "Beth's Test 3",
+                "eventDate": "10/8/2020",
+                "timestamp": "2020-10-08T15:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/beths-test-3",
+                "location": "19744 SW Aspen Ridge Drive, Bend, NJ 97702",
+                "state": "NJ",
+                "city": "Bend",
+                "zipCode": "97702",
+                "eventType": "in-person",
+                "featured": true,
+                "icon": "in-person-featured"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.33693998741775,
+                    44.020349999899196
+                ]
+            }
+        }
+    ]
+}
