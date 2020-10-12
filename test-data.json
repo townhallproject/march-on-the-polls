@@ -5,38 +5,14 @@
             "type": "Feature",
             "id": 1,
             "properties": {
-                "name": "Beth 5",
+                "name": "Vote With Us Bus Tour - Austin, TX",
                 "eventDate": "10/14/2020",
-                "timestamp": "2020-10-14T11:00:00Z",
-                "eventLink": "https://actionnetwork.org/events/beth-5",
-                "location": "2065 Greenwood Avenue, San Carlos, CA 94070",
-                "state": "CA",
-                "city": "San Carlos",
-                "zipCode": "94070",
-                "eventType": "virtual",
-                "featured": false,
-                "icon": "virtual"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.25953296863452,
-                    37.494243982943814
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 2,
-            "properties": {
-                "name": "Test 4",
-                "eventDate": "9/30/2020",
-                "timestamp": "2020-09-30T11:00:00Z",
-                "eventLink": "https://actionnetwork.org/events/test-4-6",
-                "location": "12 Linda Lane, Summit, NJ 7901",
-                "state": "NJ",
-                "city": "Summit",
-                "zipCode": "7901",
+                "timestamp": "2020-10-14T15:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/vote-with-us-bus-tour-austin-tx-2",
+                "location": "4100 Cedar Springs Road, Austin, TX 75219",
+                "state": "TX",
+                "city": "Austin",
+                "zipCode": "75219",
                 "eventType": "in-person",
                 "featured": false,
                 "icon": "in-person"
@@ -44,8 +20,32 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -74.37243501393704,
-                    40.70442300322671
+                    -97.836521,
+                    30.222346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "properties": {
+                "name": "Revolutionize the Vote Instagram Live with Adrian Stevens & Thomas Lopez",
+                "eventDate": "10/12/2020",
+                "timestamp": "2020-10-12T18:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/revolutionize-the-vote-instagram-live-with-adrian-stevens-thomas-lopez-2",
+                "location": "3980 Broadway Street #103-229, Boulder, CO 80304",
+                "state": "CO",
+                "city": "Boulder",
+                "zipCode": "80304",
+                "eventType": "virtual",
+                "featured": false,
+                "icon": "virtual"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.259703,
+                    40.016412
                 ]
             }
         },
@@ -53,23 +53,71 @@
             "type": "Feature",
             "id": 3,
             "properties": {
-                "name": "Beth's Test 3",
-                "eventDate": "10/8/2020",
-                "timestamp": "2020-10-08T15:00:00Z",
-                "eventLink": "https://actionnetwork.org/events/beths-test-3",
-                "location": "19744 SW Aspen Ridge Drive, Bend, NJ 97702",
-                "state": "NJ",
-                "city": "Bend",
-                "zipCode": "97702",
-                "eventType": "in-person",
+                "name": "LA Ballot Party #VOTEWITHUS",
+                "eventDate": "10/13/2020",
+                "timestamp": "2020-10-13T18:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/la-ballot-party-votewithus-2",
+                "location": "3191 W 4th Street, Los Angeles, CA 90020",
+                "state": "CA",
+                "city": "Los Angeles",
+                "zipCode": "90020",
+                "eventType": "virtual",
                 "featured": true,
-                "icon": "in-person-featured"
+                "icon": "virtual-featured"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.33693998741775,
-                    44.020349999899196
+                    -118.28951,
+                    34.06723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "properties": {
+                "name": "Skate to the Polls Los Angeles",
+                "eventDate": "10/24/2020",
+                "timestamp": "2020-10-24T11:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/skate-to-the-polls-los-angeles-2",
+                "location": "2535A E 12th Street, Los Angeles, CA 90021",
+                "state": "CA",
+                "city": "Los Angeles",
+                "zipCode": "90021",
+                "eventType": "in-person",
+                "featured": false,
+                "icon": "in-person"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.22686,
+                    34.02308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "properties": {
+                "name": "Vote With Us Bus Tour - Houston, TX",
+                "eventDate": "10/13/2020",
+                "timestamp": "2020-10-13T15:00:00Z",
+                "eventLink": "https://actionnetwork.org/events/vote-with-us-bus-tour-houston-tx-2",
+                "location": "1510 Polk Street, Houston, TX 77002",
+                "state": "TX",
+                "city": "Houston",
+                "zipCode": "77002",
+                "eventType": "in-person",
+                "featured": false,
+                "icon": "in-person"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.36213,
+                    29.750901
                 ]
             }
         }
