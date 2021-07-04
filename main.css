@@ -1,17 +1,24 @@
+/* @import './fonts/Baron\ Neue\ Black.otf'; */
+
+@font-face {
+    font-family: 'Baron Neue Black';
+    src: url('./fonts/Baron\ Neue\ Black.otf') format("opentype");
+}
+
 :root {
     --dark-gray: #262628;
     --med-gray: #414143;
-    --dark-blue:#0d1d36;
-    --brand-blue: #346493;
     --mid-blue:#225197;
-    --blue:#476491;
     --purple: #844179;
     --light-blue:#99b2d8;
-    --yellow: #ffde16;
-    --red: #f00004;
-    --crimson: #d81b5e;
     --cyan: #69c6b0;
     --background: var(--dark-gray);
+    --yellow: #f5aa5d;
+    --pink: #f5655B;
+    --red: #EF474E;
+    --dark-blue: #052A7A;
+    --blue: #043CAE;
+    --brand-blue: var(--dark-blue);
 }
 
 /* util-classes */
@@ -26,7 +33,7 @@
 }
 
 .multi-gradient {
-    background: linear-gradient(90deg, rgba(136, 198, 86, 1) 0%, rgba(203, 219, 42, 1) 20%, rgba(248, 210, 51, 1) 50%, rgba(244, 125, 80, 1) 80%, rgba(242, 97, 70, 1) 100%);
+    background: linear-gradient(90deg, #F5655B 0%, #043CAE 100%);
 }
 
 .peach-gradient {
@@ -42,7 +49,7 @@
 }
 
 .main-gradient {
-        background: linear-gradient(90deg,var(--brand-blue) 0%, var(--crimson) 100%);
+    background: linear-gradient(90deg, #F5655B 0%, #043CAE 100%);
 
 }
 /* end util classes */
@@ -50,7 +57,7 @@
 body { margin: 0; padding: 0; background-color: var(--background);}
 html, body { height: 100%; width: 100%;}
 .map-tool-main {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Baron Neue Black', sans-serif;
         font-style: normal;
         font-weight: 600;
     }
@@ -59,17 +66,16 @@ html, body { height: 100%; width: 100%;}
         font-size: 73px;
     }
 .map-tool-main h2 {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
         font-size: 66px;
     }
 .map-tool-main h3 {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
         text-transform: uppercase;
         font-size: 18px;
     }
 .map-tool-main h4 {
-        font-family: 'Raleway',
-        sans-serif;
+        font-family: 'Playfair Display', serif;
         font-style: normal;
         font-weight: 900;
         font-size: 20px;
@@ -202,10 +208,10 @@ html, body { height: 100%; width: 100%;}
     color: #a4a2a4;
 }
 .event-card.featured h4 {
-    color: var(--crimson);
+    color: var(--red);
 }
 .event-card.active h4 {
-  background: linear-gradient(90deg, var(--brand-blue) 0%, var(--crimson) 100%);
+  background: linear-gradient(90deg, var(--brand-blue) 0%, var(--red) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -339,7 +345,7 @@ html, body { height: 100%; width: 100%;}
     left: 2px;
     width: 18px;
     height: 18px;
-    background: var(--crimson);
+    background: var(--red);
     border: 2px solid #fff;
     box-sizing: border-box;
     border-radius: 90px;
